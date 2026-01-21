@@ -1,0 +1,30 @@
+Digital Tasbih Counter App – App Description
+
+The Digital Tasbih Counter App is a lightweight and user-friendly Flutter application designed to help users keep track of their daily dhikr and tasbih easily and accurately. Built using Flutter with efficient state management, the app focuses on simplicity, performance, and a distraction-free spiritual experience.
+
+The app replicates the functionality of a physical tasbih while adding the convenience of digital tracking, reset options, and session persistence.
+
+🚀 Key Features
+🔢 Tasbih Counter
+
+One-tap counter to increment tasbih count
+
+Large, clear number display for easy visibility
+
+Smooth and instant count updates
+
+🔁 Reset & Session Control
+
+Reset counter with a single tap
+
+Option to start a new tasbih session
+
+Prevents accidental resets with confirmation prompt
+
+💾 Persistent Storage
+
+Saves last counter value automatically
+
+Restores count even after app restart
+
+Ensures uninterrupted dhikr sessions

@@ -1,0 +1,92 @@
+Flutter Event Booking App – App Description
+
+The Flutter Event Booking App is a full-featured mobile application that allows users to discover, book, and pay for events seamlessly. Built using Flutter for cross-platform development, Firebase for backend services, GetX for state management and navigation, and Stripe for secure online payments, the app delivers a fast, reliable, and scalable booking experience.
+
+The application is designed with clean architecture, real-time data handling, and a smooth user interface, making it ideal for startups, event organizers, and booking-based platforms.
+
+🚀 Key Features
+🔐 User Authentication
+
+Secure user authentication using Firebase Authentication
+
+Email & password login/signup
+
+Persistent user sessions
+
+Secure user-specific booking data
+
+📅 Event Listing & Discovery
+
+Browse upcoming and ongoing events
+
+Events displayed with images, date, time, location, and price
+
+Real-time event updates from Cloud Firestore
+
+Category-based event browsing (e.g., concerts, workshops, conferences)
+
+🔎 Event Details
+
+Detailed event page including:
+
+Event description
+
+Organizer details
+
+Event date & time
+
+Venue/location
+
+Ticket price
+
+Dynamic UI updates using GetX reactive state
+
+🎫 Ticket Booking System
+
+Select number of tickets
+
+Real-time availability management
+
+Secure booking confirmation
+
+User-specific booking history stored in Firebase
+
+💳 Online Payments with Stripe
+
+Secure payment processing using Stripe
+
+Card-based payments
+
+Payment intent creation and confirmation
+
+Transaction status handling (success/failure)
+
+Safe and encrypted payment flow
+
+📂 Booking History
+
+View previously booked events
+
+Booking status (confirmed / cancelled)
+
+Booking details stored per user in Firestore
+
+☁️ Firebase Backend Integration
+
+Cloud Firestore for events, bookings, and user data
+
+Firebase Authentication for user management
+
+Firebase Storage for event images
+
+Real-time syncing across the app
+
+⚡ State Management with GetX
+
+Reactive UI using Obx
+
+Clean separation of business logic using controllers
+
+Fast navigation without context
+
+Efficient dependency injection

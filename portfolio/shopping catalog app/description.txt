@@ -1,0 +1,44 @@
+Flutter Shopping Catalog App – App Description
+This Flutter-based Shopping Catalog App is a modern, scalable mobile application designed to showcase and manage products efficiently. The app is built using Flutter for cross-platform development, Firebase as the backend, and GetX for state management, routing, and dependency injection.
+The application focuses on performance, clean architecture, and a smooth user experience, making it suitable for small to medium-scale e-commerce or product catalog systems.
+Key Features
+🔐 User Authentication
+Firebase Authentication for secure user sign-up and login
+Email & password–based authentication
+Persistent login session handling
+🏠 Home & Product Catalog
+Display products in a clean and responsive grid/list layout
+Real-time product data fetched from Cloud Firestore
+Product categories for easy browsing
+Smooth navigation using GetX routing
+🔍 Product Details
+Detailed product view with:
+Product name
+Price
+Description
+High-quality images
+Real-time updates when product data changes in Firebase
+❤️ Wishlist / Favorites
+Users can add or remove products from favorites
+Favorites stored securely in Firebase per user
+Instant UI updates using GetX reactive state
+🛒 Cart Management
+Add products to cart
+Increase/decrease quantity
+Remove items from cart
+Real-time cart total calculation
+☁️ Firebase Backend Integration
+Cloud Firestore for product, cart, and user data
+Firebase Storage for product images
+Firebase Authentication for user management
+Real-time syncing between app and database
+⚡ State Management with GetX
+Reactive UI updates using Obx
+Centralized controllers for products, cart, and auth
+Clean separation of UI, logic, and data
+Lightweight and high-performance state handling
+🎨 UI & UX
+Modern, minimal, and user-friendly interface
+Responsive design for different screen sizes
+Smooth animations and transitions
+Consistent theme and reusable widgets

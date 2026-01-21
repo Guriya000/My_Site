@@ -25,6 +25,7 @@
                 <li><a href="#experience" class="nav-link">Experience</a></li>
                 <li><a href="#certifications" class="nav-link">Certifications</a></li>
                 <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
             <div class="hamburger" id="hamburger">
@@ -230,8 +231,31 @@
         </div>
     </section>
 
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Portfolio</h2>
+            <p class="section-subtitle">A selection of apps I’ve designed and built using Flutter.</p>
+
+            <div class="portfolio-toolbar">
+                <div class="portfolio-search" role="search">
+                    <i class="fas fa-search" aria-hidden="true"></i>
+                    <input id="portfolioSearch" type="search" placeholder="Search projects (e.g., booking, Firebase, tracker)" autocomplete="off" />
+                </div>
+                <div class="portfolio-count" id="portfolioCount" aria-live="polite"></div>
+            </div>
+
+            <div class="portfolio-grid" id="portfolioGrid" aria-live="polite"></div>
+            <div class="portfolio-empty" id="portfolioEmpty" hidden>
+                <h3>No projects found</h3>
+                <p>Try a different keyword.</p>
+            </div>
+            <div class="portfolio-note" id="portfolioNote" hidden></div>
+        </div>
+    </section>
+
     <!-- Contact Section -->
-    <section id="contact" class="section section-alt">
+    <section id="contact" class="section">
         <div class="container">
             <h2 class="section-title">Get In Touch</h2>
             <div class="contact-content">
@@ -277,6 +301,33 @@
             <p>Flutter Developer | Building Amazing Mobile Experiences</p>
         </div>
     </footer>
+
+    <!-- Portfolio Modal -->
+    <div class="portfolio-modal" id="portfolioModal" aria-hidden="true">
+        <div class="portfolio-modal__backdrop" data-portfolio-close="true"></div>
+        <div class="portfolio-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="portfolioModalTitle">
+            <button class="portfolio-modal__close" type="button" aria-label="Close" data-portfolio-close="true">
+                <i class="fas fa-times" aria-hidden="true"></i>
+            </button>
+
+            <div class="portfolio-modal__media">
+                <button class="portfolio-modal__nav portfolio-modal__nav--prev" type="button" aria-label="Previous image">
+                    <i class="fas fa-chevron-left" aria-hidden="true"></i>
+                </button>
+                <img class="portfolio-modal__image" id="portfolioModalImage" alt="" />
+                <button class="portfolio-modal__nav portfolio-modal__nav--next" type="button" aria-label="Next image">
+                    <i class="fas fa-chevron-right" aria-hidden="true"></i>
+                </button>
+            </div>
+
+            <div class="portfolio-modal__thumbs" id="portfolioModalThumbs" aria-label="Project images"></div>
+
+            <div class="portfolio-modal__content">
+                <h3 class="portfolio-modal__title" id="portfolioModalTitle"></h3>
+                <div class="portfolio-modal__desc" id="portfolioModalDesc"></div>
+            </div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>

@@ -1,0 +1,74 @@
+{
+  "basePath": "portfolio",
+  "projects": [
+    {
+      "id": "adhan-app",
+      "title": "Adhan App",
+      "folder": "Adhan App",
+      "descriptionFile": "description.txt",
+      "images": ["ad-removebg-preview.png", "BeFunky-collage (1).jpg"]
+    },
+    {
+      "id": "attendance-management-app",
+      "title": "Attendance Management App",
+      "folder": "Attendance Management App",
+      "descriptionFile": "description.txt",
+      "images": ["c1-removebg-preview.png", "c2-removebg-preview.png", "c3-removebg-preview.png"]
+    },
+    {
+      "id": "digital-tasbih-counter",
+      "title": "Digital Tasbih Counter",
+      "folder": "digital tasbih counter",
+      "descriptionFile": "description.txt",
+      "images": [
+        "WhatsApp Image 2026-01-21 at 6.42.17 PM.jpeg",
+        "WhatsApp Image 2026-01-21 at 6.42.17 PM (1).jpeg",
+        "WhatsApp Image 2026-01-21 at 6.42.18 PM.jpeg"
+      ]
+    },
+    {
+      "id": "event-booking-app",
+      "title": "Event Booking App",
+      "folder": "event booking app",
+      "descriptionFile": "description.txt",
+      "images": [
+        "WhatsApp Image 2026-01-21 at 6.08.20 PM.jpeg",
+        "WhatsApp Image 2026-01-21 at 6.08.21 PM.jpeg",
+        "WhatsApp Image 2026-01-21 at 6.08.21 PM (1).jpeg",
+        "WhatsApp Image 2026-01-21 at 6.08.21 PM (3).jpeg",
+        "WhatsApp Image 2026-01-21 at 6.08.21 PM (4).jpeg",
+        "WhatsApp Image 2026-01-21 at 6.08.22 PM.jpeg"
+      ]
+    },
+    {
+      "id": "expense-tracker-app",
+      "title": "Expense Tracker App",
+      "folder": "Expense Tracker app",
+      "descriptionFile": "description.txt",
+      "images": [
+        "WhatsApp Image 2026-01-21 at 6.51.11 PM.jpeg",
+        "WhatsApp Image 2026-01-21 at 6.51.11 PM (1).jpeg",
+        "WhatsApp Image 2026-01-21 at 6.51.12 PM.jpeg",
+        "WhatsApp Image 2026-01-21 at 6.51.12 PM (1).jpeg"
+      ]
+    },
+    {
+      "id": "shopping-catalog-app",
+      "title": "Shopping Catalog App",
+      "folder": "shopping catalog app",
+      "descriptionFile": "description.txt",
+      "images": [
+        "WhatsApp Image 2026-01-21 at 5.55.33 PM.jpeg",
+        "WhatsApp Image 2026-01-21 at 5.55.33 PM (1).jpeg",
+        "WhatsApp Image 2026-01-21 at 5.55.33 PM (2).jpeg",
+        "WhatsApp Image 2026-01-21 at 5.55.34 PM.jpeg",
+        "WhatsApp Image 2026-01-21 at 5.55.35 PM.jpeg",
+        "WhatsApp Image 2026-01-21 at 5.55.35 PM (1).jpeg",
+        "WhatsApp Image 2026-01-21 at 5.55.35 PM (2).jpeg",
+        "WhatsApp Image 2026-01-21 at 5.55.36 PM.jpeg",
+        "WhatsApp Image 2026-01-21 at 5.55.36 PM (1).jpeg",
+        "WhatsApp Image 2026-01-21 at 5.55.37 PM.jpeg"
+      ]
+    }
+  ]
+}
