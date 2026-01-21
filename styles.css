@@ -51,7 +51,11 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-h1, h2, h3, .nav-brand, .section-title {
+h1,
+h2,
+h3,
+.nav-brand,
+.section-title {
     font-family: var(--font-display);
     letter-spacing: -0.02em;
 }
@@ -71,7 +75,7 @@ h1, h2, h3, .nav-brand, .section-title {
     opacity: 0.7;
 }
 
-.section > .container {
+.section>.container {
     position: relative;
     z-index: 1;
 }
@@ -164,6 +168,7 @@ h1, h2, h3, .nav-brand, .section-title {
 .nav-link.active::after {
     width: 100%;
 }
+
 .hamburger {
     display: none;
     flex-direction: column;
@@ -186,9 +191,9 @@ h1, h2, h3, .nav-brand, .section-title {
     align-items: center;
     justify-content: center;
     background: radial-gradient(1200px 700px at 20% 20%, rgba(124, 58, 237, 0.55), transparent 60%),
-                radial-gradient(900px 600px at 90% 30%, rgba(37, 99, 235, 0.45), transparent 55%),
-                radial-gradient(900px 700px at 55% 85%, rgba(6, 182, 212, 0.30), transparent 60%),
-                linear-gradient(135deg, #070a16 0%, #0a0f24 55%, #070a16 100%);
+        radial-gradient(900px 600px at 90% 30%, rgba(37, 99, 235, 0.45), transparent 55%),
+        radial-gradient(900px 700px at 55% 85%, rgba(6, 182, 212, 0.30), transparent 60%),
+        linear-gradient(135deg, #070a16 0%, #0a0f24 55%, #070a16 100%);
     position: relative;
     overflow: hidden;
     padding-top: 80px;
@@ -276,19 +281,22 @@ h1, h2, h3, .nav-brand, .section-title {
     box-shadow: var(--ring);
 }
 
-.btn-primary:hover {
-    filter: saturate(1.05);
-}
+
 
 .btn-primary {
     background: var(--gradient-1);
+    background-size: 200% auto;
     color: var(--white);
-    box-shadow: 0 18px 55px rgba(124, 58, 237, 0.25);
+    box-shadow: 0 10px 25px rgba(124, 58, 237, 0.4);
+    border: none;
+    transition: all 0.5s ease;
 }
 
 .btn-primary:hover {
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-lg);
+    background-position: right center;
+    transform: translateY(-3px);
+    box-shadow: 0 20px 40px rgba(124, 58, 237, 0.5);
+    filter: brightness(1.1);
 }
 
 .btn-secondary {
@@ -535,7 +543,7 @@ h1, h2, h3, .nav-brand, .section-title {
     transition: all 0.3s ease;
     border-top: 4px solid transparent;
     background-image: linear-gradient(var(--surface-solid), var(--surface-solid)),
-                      var(--gradient-1);
+        var(--gradient-1);
     background-origin: border-box;
     background-clip: padding-box, border-box;
     backdrop-filter: blur(12px);
@@ -969,7 +977,7 @@ h1, h2, h3, .nav-brand, .section-title {
     object-fit: contain;
     display: block;
     background: radial-gradient(circle at 20% 20%, rgba(102, 126, 234, 0.25), transparent 45%),
-                radial-gradient(circle at 80% 40%, rgba(236, 72, 153, 0.18), transparent 50%);
+        radial-gradient(circle at 80% 40%, rgba(236, 72, 153, 0.18), transparent 50%);
 }
 
 .portfolio-modal__nav {
@@ -1163,6 +1171,7 @@ body.modal-open {
         opacity: 0;
         transform: translateY(30px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -1170,12 +1179,19 @@ body.modal-open {
 }
 
 @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
         transform: translateX(-50%) translateY(0);
     }
+
     40% {
         transform: translateX(-50%) translateY(-10px);
     }
+
     60% {
         transform: translateX(-50%) translateY(-5px);
     }
@@ -1186,6 +1202,7 @@ body.modal-open {
         transform: translate3d(-2%, -1%, 0) scale(1);
         opacity: 0.8;
     }
+
     to {
         transform: translate3d(2%, 1%, 0) scale(1.05);
         opacity: 0.95;
